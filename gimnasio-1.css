@@ -1,0 +1,137 @@
+body {background-image:url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;}
+
+table {text-align: center;
+      font-size: x-large;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+      background-color: white;
+      margin:20px auto;
+      width: 60%;
+      height: 300px;
+      border-collapse: collapse;
+      box-shadow: none;
+      border: 20px solid ;
+      border-radius: 15px;   /* Esquinas redondeadas */
+      overflow: hidden;      /* Para que las celdas no sobresalgan */
+          }
+          
+
+td   {border:5px solid #FF66C4;
+      border-color: #FF66C4;
+     font-family: Arial, Helvetica, sans-serif;}
+
+tr   {border: 5px solid;
+     border-style: groove;
+     border-color: #FF66C4;}
+
+th   {border: 4px solid #FF66C4;
+      border-color: #FF66C4;
+    padding: 15px 20px;
+    font-size: 20 5px;}
+
+h2 {color: white;
+    font-family: fantasy;
+    font-weight: 200;}
+
+h2.horarios {font-family: fantasy;
+             font-weight: 200;
+             font-size:xx-large;}
+h2.preciomembresia {display: inline-block;
+                    font-size: xx-large;
+                    color: #FF66C4;
+                    background-color: rgb(220, 220, 220);
+                    padding: 5px 10px;
+                   border-radius: 5px;}
+
+h1 {color: white;
+    font-family: fantasy; 
+    font-weight: 200;}
+
+p   {color: white;
+     font-size: large;}
+
+ul li {color: white;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: justify;
+      margin: 0 auto;
+      width: 80%;
+     font-size: large;}
+
+div.martina {background-color:rgb(138, 87, 204) ;
+         border:1px solid #ccc;
+         padding: 15px;
+         margin: 20px auto;
+         border-radius: 8px;
+         width: 60%;}
+         
+div.claudia {background-color:rgb(247, 108, 136) ;
+       border:1px solid #ccc;
+      padding: 15px;
+       margin: 20px auto;
+       border-radius: 8px;
+      width: 60%;}
+div.milagros {background-color:rgb(63, 111, 255) ;
+            border:1px solid #ccc;
+            padding: 15px;
+            margin: 20px auto;
+            border-radius: 8px;
+           width: 60%;}
+div.planesmembresia {background-color:#ff69b4;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    margin: 20px auto;
+                  border-radius: 8px;
+                  width: 50%;}
+
+.barra {
+            background-color: #ff69b4;  /* rosa */
+            display: flex;              /* flexbox para centrar */
+            justify-content: center;    /* centra horizontalmente */
+            align-items: center;        /* centra verticalmente */
+            height: 30px;  }             /* altura de la barra */
+                         
+.barra a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;             /* espacio entre los enlaces */
+            font-weight: bold;
+            font-size: 16px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+                             
+.barra a:hover {
+            color: #ffe066;}
+
+form {font-family: fantasy;
+     color: white;
+     font-size: large;
+     text-align: center;
+     justify-content: center;
+     font-weight: 50; }
+
+label {
+      display: inline-block;
+      width: 100px; /* mismo ancho para todos */
+      text-align: right; /* opcional, texto pegado a la derecha */
+      margin-right: 10px; /* espacio entre label e input */
+    }
+
+div.formulario {background-color:#ff69b4;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    margin: 20px auto;
+                  border-radius: 8px;
+                  width: 30%;}
+
+footer {background-color: #FF66C4;
+      color: white;
+      text-align: center;
+     padding: 5px;
+     position: relative;
+     bottom: 0;
+      width: 100%;}
+                              
+          
